@@ -1,1 +1,95 @@
-style.css
+
+  body {
+    background:#000000 !important;
+   }
+   
+   
+   .service_tab_1{  background-color: #16a2b7;  
+    padding:0;
+    }
+    .text{
+        color: rgba(255, 255, 255, 0.9);
+        text-align: left;
+    }
+    .folded-corner{
+        padding: 0, 25px;
+        position: relative;
+        font-size: 90%;
+    
+    } 
+    footer {
+        color:white;
+        font-weight: bold;
+        background-color: #16a2b7;
+        font-family: "Raleway";
+        font-size: 400;
+        position: absolute;
+        width: 100%;
+        padding:2px
+       }
+       .bg-interno{
+        background-color: #16a2b7;
+        transition: all 2s ease;
+       }
+      
+       .h1{
+        font-family: "Raleway";
+        font-size: 400;
+       }
+       .container_header{
+        margin-left: 0;
+        margin-right: 0;
+      } 
+      
+      .carousel-item {
+        background: no-repeat center center scroll;
+        -webkit-background-size: cover;
+        -moz-background-size: cover;
+        -o-background-size: cover;
+        background-size: cover;
+      }
+      
+      .container_h1{
+        margin-left: 0;
+        margin-right: 0;
+      } 
+      .hr_linea{
+        background-color: #16a2b7;
+        height:0.2em;
+      
+      }
+      .card0
+      {
+        background-color: black;
+      }
+      .card-body01
+      {  background-color: #16a2b7;  
+        padding:0;
+        }
+      .fa-iconos{
+        font-size: 2em;
+        color: #fff;
+      }
+      .card-body02
+      {  background-color: black;
+        color:white;
+        padding:0;
+        margin:0;
+        text-align:left;
+      
+      }
+      .card-body00
+      {  background-color:white;;  
+        margin-top: 1.5em;
+        }
+      .card-body03
+      { background-color: #16a2b7;  
+        color:white;
+        text-align:left;
+        height:17em;
+        padding: 0.5em;
+        
+      }
+      .card-imagen{
+        height:140px;
+      }
