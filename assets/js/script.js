@@ -1,5 +1,8 @@
 script.js
 
+new WOW().init();
+
+
 $(window).scroll(function(){
 
     if ($(this).scrollTop() > 400) {
@@ -12,3 +15,11 @@ $(window).scroll(function(){
       }
 
    });
+
+   $('#blogCarousel').carousel({
+    interval: 5000
+});
+
+function mialerta() {  
+    alert("¡Hola..., Mensaje Enviado...!");
+} 

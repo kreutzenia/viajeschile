@@ -20,14 +20,15 @@
         integrity="sha384-B0vP5xmATw1+K9KRQjQERJvTumQW0nPEzvF6L/Z6nronJ3oUOFUFpCjEUQouq2+l" crossorigin="anonymous">
     <link rel="stylesheet" href="assets/css/bootstrap.min.css">
     <link rel="stylesheet" href="assets/css/style.css" />
+
 </head>
 
 <body>
     <!-- Incorpora Nav trsnaparente-->
 
     <nav id="menu" class="navbar navbar-expand-lg navbar-dark bg-interno fixed-top">
-        <a class="navbar-brand" href="#">
-            <img src="assets\imag\viajes svg.svg" alt="viajes" class="ml-5" height="30px" /></a>
+        <a class="navbar-brand text-white" href="#">
+            <img src="assets\imag\viajes svg.svg" alt="viajes" class="ml-5" height="30px" />
         Viajes Chile</a>
         <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
             aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
@@ -55,7 +56,7 @@
     </nav>
     <!-- Header-->
     <header class="container_header" id="header">
-        <!--AQUI EL CARROYSEL-->
+        <!--AQUI EL CARRUSEL-->
         <div id="carouselExampleControls" class="carousel slide" data-ride="carousel">
             <div class="carousel-inner">
                 <div class="carousel-item active">
@@ -90,10 +91,8 @@
         </div>
 
         <!--Quienes somos contenedores -->
-        <!-- Contenedor 01-->
         <section class="container pb-5">
             <div class="row mb-5 mx-3 justify-content-md-center ">
-                <!-- Contenedor 011-->
                 <div class="col-sm-12 col-md-4">
                     <div class="card-body text-center my-auto card-body01">
                         <a href="#" class="card-link"><i class="fa fa-plane fa-iconos" aria-hidden="true"></i></a>
@@ -119,7 +118,6 @@
 
                     </div>
                 </div>
-                <!-- Contenedor 012-->
                 <div class="col-sm-12 col-md-4">
 
                     <div class="card card_style card0">
@@ -146,7 +144,6 @@
                         <a href="#" class="card-link"><i class="fa fa-campground fa-iconos" aria-hidden="true"></i></a>
                     </div>
                 </div>
-                <!-- Contenedor 013-->
                 <div class="col-sm-12 col-md-4">
                     <div class="card-body text-center my-auto card-body01">
                         <a href="#" class="card-link"><i class="fa fa-route fa-iconos" aria-hidden="true"></i></a>
@@ -184,16 +181,13 @@
         <hr class="hr_linea">
     </div>
 
-    <!--Destadcados contenedores -->
+    <!--Destacados contenedores -->
 
-    <!--Destadcados-->
-    <!-- Contenedor 01-->
     <section class="container pb-5">
         <div class="row mb-5 mx-3 justify-content-md-center ">
-            <!--Primero -->
             <div class="col-lg-3 col-md-3 col-sm-12 col-xs-12 Services-tab  item">
                 <div class="folded-corner service_tab_1">
-                    <img src="assets\imag\card1.jpg" class="card-img-top card-imagen" alt="destacados 1">
+                    <img src="assets\imag\card1.jpg" class="card-img-top card-img" alt="destacados 1">
                     <div class="text">
                         <h5 class="card-title font-weight-bold  my-3 text-center" >  Lorem ipsum dolor sit amet.</h5>
                          <p class="card-text my-4 text-center">Lorem ipsum dolor sit amet. Non sunt deleniti cum nemo
@@ -204,7 +198,7 @@
             <div class="col-lg-3 col-md-3 col-sm-12 col-xs-12 Services-tab item">
                 <div class="folded-corner service_tab_1">
                     <div class="text">
-                        <img src="assets\imag\card2.jpg" height="160.89" class="card-img-top card-imagen" alt="destacados 2">
+                        <img src="assets\imag\card2.jpg"  class="card-img-top card-img" alt="destacados 2">
                         <h5 class="card-title font-weight-bold  my-3 text-center">  Lorem ipsum dolor sit amet.</h5>
                         <p class="card-text my-4">  Lorem ipsum dolor sit amet. Non sunt deleniti cum nemo
                             consequuntur sed sequi consequatur et exercitationem molestias?
@@ -215,7 +209,7 @@
             <div class="col-lg-3 col-md-3 col-sm-12 col-xs-12 Services-tab item">
                 <div class="folded-corner service_tab_1">
                     <div class="text">
-                        <img src="assets\imag\card3.jpg" class="card-img-top card-imagen" alt="destacados 2">
+                        <img src="assets\imag\card3.jpg" class="card-img-top card-img" alt="destacados 2">
                         <h5 class="card-title font-weight-bold  my-3 text-center">Lorem ipsum dolor sit amet.</h5>
                         <p class="card-text my-4">Lorem ipsum dolor sit amet. Non sunt deleniti cum nemo
                             consequuntur sed sequi consequatur et exercitationem molestias?
@@ -226,7 +220,7 @@
             <div class="col-lg-3 col-md-3 col-sm-12 col-xs-12 Services-tab item">
                 <div class="folded-corner service_tab_1">
                     <div class="text">
-                        <img src="assets\imag\card4.jpg" class="card-img-top card-imagen" alt="destacados 2">
+                        <img src="assets\imag\card4.jpg" class="card-img-top card-img" alt="destacados 2">
                         <h5 class="card-title font-weight-bold  my-3 text-center">Ut enim ad minim veniam.</h5>
                         <p class="card-text my-4">Lorem ipsum dolor sit amet. Non sunt deleniti cum nemo
                             consequuntur sed sequi consequatur et exercitationem molestias?
@@ -245,66 +239,40 @@
     </div>
 
     <section class="container pb-5">
-        <div class="alert" id="messages"></div>
- 
-        <form method="post" action="" name="contact" id="contact" onsubmit="enviar(this); return false;">   
+        <div class="form-group"></div>  
+          
         <hr />
-            <!-- nombre  -->
-            <div class="form-group">
-                <label for="name">Nombre/Apellidos:</label>
-                <div class="input-group">
-                    <div class="input-group-prepend">
-                      <div class="input-group-text"><i class="fas fa-user"></i></div>
-                    </div>
-                    <input type="text" class="form-control" placeholder="Nombre" id="name" name="name" required />               
+            <!-- contac form -->
+                <div class="form-group text-white">
+                  <label for="name" class="contact_form">Nombres</label>
+                  <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
                 </div>
-            </div>
-            <!-- telefono -->
-            <div class="form-group">
-                <label for="phone">Teléfono</label>
-                <div class="input-group">
-                    <div class="input-group-prepend">
-                      <div class="input-group-text"><i class="fas fa-mobile-alt"></i></div>
-                    </div>
-                    <input type="text" class="form-control" id="phone" name="phone" placeholder="Teléfono" required />               
+                <div class="form-group text-white">
+                  <label for="message" class="contact_form">Asunto</label>
+                  <input type="password" class="form-control" id="exampleInputPassword1">
                 </div>
-            </div>
-            <!-- email -->
-            <div class="form-group">
-                <label>Email:</label>
-                <div class="input-group">
-                    <div class="input-group-prepend">
-                      <div class="input-group-text"><i class="fas fa-envelope"></i></div>
+                <div class="form-group text-white">
+                    <label for="message" class="contact_form">Mensaje</label>
+                    <textarea class="form-control" type="textarea"   maxlength="140" rows="7"></textarea>
+                        <span class="help-block"></span>                    
                     </div>
-                    <input type="email" class="form-control" id="email" name="email" placeholder="correo" required />               
-                </div>
-                <small id="emailHelp" class="form-text text-muted">Su email no será compartido con nadie.</small>
-            </div>
-            <!-- mensaje -->
-            <div class="form-group">
-                <label for="subject">Asunto:</label>
-                <textarea placeholder="Asunto" id="subject" name="subject" class="form-control" required></textarea>
-            </div>
-     
-            <!-- google recaptcha -->
-            <script src='https://www.google.com/recaptcha/api.js'></script>
-            <div class="g-recaptcha" data-sitekey="your-public-site-recaptcha-key"></div>
-     
+                       
             <hr />
-            <!-- submit -->
-            <div class="text-center">
-                <button type="button" class="btn btn-primary">Enviar</button>
+            
+            <!-- Buttom -->
+            <input type="button" class="btn btn-primary" onclick="mialerta();" value="Enviar"/>
 
-            </div>
-        </form>
+  </form>
+
+
     </div>
      
     </section>
     <!--(pie de página)-->
-    <!-- Footer -->
+
     <footer class="page-footer ">
         <div class="container">
-            <!-- Grilla row-->
+
             <div class="row">
 
                 <div class="col-sm-12 col-md-6 my-auto">
@@ -343,18 +311,16 @@
     </footer>
     <!-- Footer -->
     <!-- Scripts-->
-    <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js"
-        integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n"
-        crossorigin="anonymous"></script>
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js" integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
     <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"
         integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo"
         crossorigin="anonymous"></script>
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"
         integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6"
         crossorigin="anonymous"></script>
-    <!-- Optional JavaScript -->
-    <script src="assets/js/script.js"></script>
+       
+    <!-- call JavaScript -->
+    <script src="assets\js\script.js"></script>
 
 </body>
-
 </html>
