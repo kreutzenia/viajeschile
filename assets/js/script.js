@@ -1,4 +1,4 @@
-script.js
+
 
 new WOW().init();
 
